@@ -24,7 +24,7 @@ Streamlit dexou a porta `8501` configurada para você acessar. Então vá até o
 
 Você verá seu dados brutos sendo apresentados em gráficos.
 
-![Gráficos]()
+![Gráficos](https://github.com/kanyesteves/dashboard_python/blob/master/dashboardImage.png)
 
 
 ### Referências
