@@ -3,6 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 
+# Ler aquivo e criar campo de selecão com para filtrar todos os meses de cada ano.
 st.set_page_config(layout="wide")
 
 df = pd.read_csv('supermarket_sales.csv', sep=";", decimal=",")
@@ -15,6 +16,7 @@ month = st.sidebar.selectbox("Mês", df["Month"].unique())
 
 df_filtered = df[df["Month"] == month]
 
+# Criar gráficos com as pesquisas feitas e posiciona-los na tela.
 col1, col2 = st.columns(2)
 col3, col4, col5 = st.columns(3)
 
